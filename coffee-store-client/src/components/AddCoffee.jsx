@@ -29,7 +29,7 @@ const AddCoffee = () => {
             .then(data => {
                 console.log(data);
                 if (data.insertedId) {
-                    toast('Coffee Added Successfullyy')
+                    toast('Coffee Added Successfully')
                 }
             })
     }
